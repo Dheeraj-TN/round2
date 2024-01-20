@@ -7,6 +7,12 @@
     height: 70vh;
     margin-top: -350px;
 }
+.underline_disc{
+    width: 100px;
+    height: 5px;
+    color: #ea1035;
+    background-color: #ea1035;
+}
 .title-section {
     text-align: center;
     padding: 40px;

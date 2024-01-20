@@ -8,6 +8,7 @@ const Discover = () => {
   return (
     <div className="disc">
       <div className="title-section">
+        <div className="underline_disc" />
         <h1>DISCOVERY BALI</h1>
         <p>
           Adalah sebuah warisan indahnya alam dan budaya yang masih terjaga di
