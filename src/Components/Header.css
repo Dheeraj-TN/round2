@@ -1,0 +1,97 @@
+/* Header.css */
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header.scrolled {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .logo a{
+    color:#ea1350;
+    cursor: pointer;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+    }
+  
+    li {
+      margin: 0 15px;
+      position: relative;
+    }
+  
+    a {
+      text-decoration: none;
+      color:white;
+      position: relative;
+      font-weight: 600;
+      font-size: 18px;
+      
+    }
+    a::before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      transition: width 0.3s ease;
+    }
+    a::after{
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        right: 0;
+        background-color: black;
+        transition: width 0.3s ease;
+    }
+  
+    a:hover::before {
+      width: 100%;
+      color: black;
+    }
+  }
+  
+  .login-btn {
+    cursor: pointer;
+    background-color:transparent;
+    color: white;
+    padding: 10px 15px;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 30px;
+    transition: transform 200ms ease-in-out;
+  }
+  .login-btn:hover{
+    background-color:#ea1350;
+    color: white;
+    border: none;
+    transform: scale(1.1);
+    font-weight: 600;
+  }
+  /* Add your other styles for the background image and content in the main CSS file */
+  

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url("/Users/dheerajtn/gdsc/gdsc-2/src/Components/header.jpg") center/cover no-repeat;
+    height: 100vh;
+  }
+  .home{
+    z-index: 1000;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0); /* Adjust the opacity here */
+  }
+  /* Add this to your CSS file */
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-right: 800px;
+  }
+  
+  .centered-text {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .centered-text h2 {
+    font-size: 42px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    width: 20%;
+    text-align: left;
+    font-weight: 900;
+  }
+  
+  .centered-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .vacations-btn{
+    margin-left: -200px;
+  }
+  #home-btn {
+    padding: 15px 25px;
+    width: 250px;
+    font-size: 20px;
+    background-color:#fe7a36;
+    color: white;
+    border: none;
+    font-weight: 500;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  #home-btn:hover {
+    background-color: #7c2d06;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+  }
+  
